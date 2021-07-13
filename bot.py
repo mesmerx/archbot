@@ -6,7 +6,7 @@ import os
 import signal
 import requests
 import re
-token= "287670488:AAGyEmCNxqUWAXo0r0HqV2fluhbihq_sB84"
+token= ""
 def command(cmd,params):
 	response = requests.post(
 		url='https://api.telegram.org/bot{0}/{1}'.format(token, cmd),
